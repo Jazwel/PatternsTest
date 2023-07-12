@@ -1,0 +1,6 @@
+rootProject.name = 'PatternTest'
+include 'src:main:Data'
+findProject(':src:main:Data')?.name = 'Data'
+include 'src:Data'
+findProject(':src:Data')?.name = 'Data'
+
